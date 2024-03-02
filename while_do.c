@@ -6,7 +6,7 @@ float a=0.7;
 
 do
 {
-printf("%f\n",a);
+printf("%.3f\n",a);
 a++;
 }
 while(a<8);
