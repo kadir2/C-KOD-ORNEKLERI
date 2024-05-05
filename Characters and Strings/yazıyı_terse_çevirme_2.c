@@ -24,7 +24,7 @@ if (sPtr[0] == '\0') { /* base case */
 return;
 } /* end if */
 else { /* if not end of the string */
-reverse(&sPtr[1] ); /* recursion step */
+reverse(&sPtr[1] ); /* recursion step */ //kendini sürekli çağırır '\0' a gelinince başa sarmaya başlanır
 putchar (sPtr [0] ); 
 }
 }
