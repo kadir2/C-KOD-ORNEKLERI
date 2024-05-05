@@ -25,6 +25,6 @@ return;
 } /* end if */
 else { /* if not end of the string */
 reverse(&sPtr[1] ); /* recursion step */ //kendini sürekli çağırır '\0' a gelinince başa sarmaya başlanır
-putchar (sPtr [0] ); 
+putchar (sPtr [0] );  //verilen karakteri ekrana yazdırır
 }
 }
