@@ -10,7 +10,7 @@ char s[80];
 
 scanf("%d%f",&x,&y);
 
-sprintf( s ,"tam sayı:%d\nkesirli sayı:%.2f",x,y);
+sprintf( s ,"tam sayı:%d\nkesirli sayı:%.2f",x,y); //tırnak içerisindekini 's' e atıyor
 
 printf("%s",s);
 return 0;
