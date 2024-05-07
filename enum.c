@@ -6,13 +6,15 @@ void gün();
 int main(){
 
 
-enum aylar {ock,şbt,mrt,nsn,may,haz,tem,ağu,eyl,ekm,kas,ara}
+enum aylar {ock,şbt,mrt,nsn,may,haz,tem,ağu,eyl,ekm,kas,ara};
 
-buay=mrt;
+int buay=mrt;
 
 printf("bu ay %d. ay\n", buay+1);
 
 gün();
+
+return 0;
 }
 
 void gün(){
