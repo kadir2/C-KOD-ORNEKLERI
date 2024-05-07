@@ -8,7 +8,7 @@ char *abc="571.2 sayısı";
 double b;
 char *kalan;
 
-b =strtod(abc , &kalan);
+b =strtod(abc , &kalan); // sayıyı ve geri kalanı ayırır
 
 printf("abc =%s \nsayı =%.2f\nkalan terimler =%s",abc , b , kalan);
 
